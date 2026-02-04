@@ -8,6 +8,8 @@ header{
     padding-inline: 24px;
     height: 113px;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
     display: flex;
     .icon_coco01{
         /* padding-inline: 24px; */
@@ -47,6 +49,9 @@ header{
         display: flex;
         gap: 5px;
     }
+}
+main{
+    padding-top: 113px;
 }
 .calendar_week{
     padding-inline: 24px;
@@ -108,22 +113,46 @@ header{
     margin-left: 10px;
     font-size: 20px;
 }
-.imgB{
+.record_menu_wrap{
     display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
-    flex-direction: column;
-    background-color: #B8ECC7;
-    height: 100%;
-
+    background-color: #EEF9ED;
+    justify-content: space-around;
+    padding: 0 24px;
+    
+    
+    .imgA{
+        border-right: 1px solid black;
+        padding: 8px 10px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #EEF9ED;
+        flex-direction: column;
+        align-items: center;
+        &:last-child{
+            border: none;
+        }
+    }
 }
-.imgA{
+.record_main_wrap{
+    border: 1px solid tomato;
     display: flex;
     justify-content: space-around;
-    background-color: #EEF9ED;
-    flex-direction: column;
-    align-items: center;
-    
+    background-color: #B8ECC7;
+    padding: 8px 24px;
+
+    .imgB{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        background-color: #B8ECC7;
+        width: ;
+    }
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
