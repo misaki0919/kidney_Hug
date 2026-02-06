@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #B8ECC7; */
+}
+/* main{
+    background-color: #EEF9ED;
+    height: 100%;
+    padding: 24px;
+} */ 
+/* .datetime{
+    font-size: 12px;
+}
+.time01{
+    border-bottom: 1px solid black;
+    font-size: 32px;
+}
+.main_word{
+    margin: 15px 0;
+    p{
+        font-size: 15px;
+    }
+}
+.creation_01{
+    display: flex;
+    justify-content: center;
+    .creation{
+        background-color: #B8ECC7;
+        width: 380px;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px 0 black;
+        font-size: 24px;
+    }
+}
+*/
+
+
+
+.modalWrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(217, 217, 217, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    .modal{
+        width: 100vw;
+        height: 538px;
+        background-color: #EEF9ED;
+        position: absolute;
+        bottom: 0;
+        border-radius: 40px;
+        .sub_icon01{
+            
+        }
+}
+}
+
