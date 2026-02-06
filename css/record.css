@@ -50,9 +50,50 @@ body{
         position: absolute;
         bottom: 0;
         border-radius: 40px;
-        .sub_icon01{
-            
+        .icon_diary_wrap{
+            display: flex;
+            align-items: center;
+            margin: 33px 0;
+            padding-left: 24px;
+            .sub_icon01{
+                /* border-bottom: 1px solid tomato; */
+                /* margin: 20px 0; */
+                width: 50px;
+                height: 50px;
+                img{
+                    width: 100%;
+                }
+            }
+            .diary{
+                font-size: 24px;
+                margin-left: 30px;
+            }
         }
+        .datetime{
+            font-size: 15px;
+            padding-left: 24px;
+            margin-bottom: 3px;
+        }
+        .time01{
+            font-size: 32px;
+            padding-left: 24px;
+            border-bottom: 1px solid black;
+        }
+        .main_word{
+            font-size: 15px;
+            padding-left: 24px;
+            margin-bottom: 30px;
+        }
+        .word_limit{
+            font-size: 15px;
+            color: rgb(108, 108, 108);
+            border-top: 1px solid black;
+            p{
+                text-align: right;
+                margin: 3px 24px;
+            }
+        }
+
 }
 }
 
