@@ -5,16 +5,25 @@ body{
     
 }
 .first_wrap{
-    display: flex;
-    
+    border-bottom: 1px solid rgba(0,0,0,0.15);
     .x_icon{
-        margin-top: 70px;
+        margin-top: 100px;
         padding-left: 24px;
     }
     .counter{
         font-size: 9px;
         /* margin-left: 60px; */
+        padding-top: 50px;
+        padding-left: 60px;
     }
+    .post{
+        padding-left: 60px;
+    }
+}
+
+.pin_icon{
+    padding-left: 24px;
+    margin-top: 3px;
 }
 
 h3 {
