@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #B8ECC7;
+}
+.x_icon{
+    margin-top: 70px;
+    padding-left: 24px;
+}
+.counter{
+    font-size: 9px;
+    margin-left: 60px;
+}

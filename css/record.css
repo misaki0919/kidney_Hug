@@ -93,7 +93,41 @@ body{
                 margin: 3px 24px;
             }
         }
-
+        .image{
+            font-size: 15px;
+            p{
+                padding-left: 24px;
+            }
+        }
+    }
 }
+.functions_wrap{
+    display: flex;
+    margin-right: 24px;
+    .camera_wrap{
+        border: 1px solid #B8ECC7;
+        background-color: #ffffff;
+        width: 174px;
+        height: 103px;
+        text-align: center;
+        margin-left: 24px;
+        border-radius: 20px;
+        border-width: 2px;
+        padding-top: 16px;
+    }
+    .album_wrap{
+            border: 1px solid #B8ECC7;
+        background-color: #ffffff;
+        width: 174px;
+        height: 103px;
+        text-align: center;
+        margin-left: 24px;
+        border-radius: 20px;
+        border-width: 2px;
+        padding-top: 16px;
+    }
+}
+.creation_01{
+    background-color: tomato;
 }
 

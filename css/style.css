@@ -134,7 +134,6 @@ main{
     }
 }
 .record_main_wrap{
-    border: 1px solid tomato;
     display: flex;
     justify-content: space-around;
     background-color: #B8ECC7;
@@ -154,8 +153,6 @@ footer{
     bottom: 0;
     width: 100%;
 }
-
-
 
 
 
