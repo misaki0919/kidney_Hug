@@ -103,14 +103,24 @@ body{
 }
 .functions_wrap{
     display: flex;
-    margin-right: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 13px;
+    padding-inline: 24px;
+
+    .add_buttons_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .camera_wrap{
         border: 1px solid #B8ECC7;
         background-color: #ffffff;
-        width: 174px;
+        width: 46%;
         height: 103px;
         text-align: center;
-        margin-left: 24px;
         border-radius: 20px;
         border-width: 2px;
         padding-top: 16px;
@@ -118,16 +128,20 @@ body{
     .album_wrap{
             border: 1px solid #B8ECC7;
         background-color: #ffffff;
-        width: 174px;
+        width: 46%;
         height: 103px;
         text-align: center;
-        margin-left: 24px;
         border-radius: 20px;
         border-width: 2px;
         padding-top: 16px;
     }
 }
 .creation_01{
-    background-color: tomato;
+    background-color: #B8ECC7;
+    width: 100%;
+    height: 53px;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 0 black;
+    font-size: 24px;
 }
 
