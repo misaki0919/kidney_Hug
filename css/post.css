@@ -1,0 +1,168 @@
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #B8ECC7; */
+    
+}
+
+/* ===== header ===== */
+.form-header {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 53px 25px 20px;
+    background: #c9f0d5;
+}
+
+.form-header img {
+    width: 24px;
+}
+
+.header-text .sub {
+        font-size: 12px;
+        margin: 0;
+}
+
+.header-text h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* ===== main ===== */
+.form-wrap {
+    padding: 25px;
+}
+
+/* 緑のカード */
+.form-card {
+    background: #c9f0d5;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+/* プロフィール行 */
+.profile-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-icon img {
+    width: 48px;
+}
+
+.profile-name {
+    font-size: 14px;
+}
+
+/* ラベルと入力 */
+label {
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* ▼ select の矢印風 */
+select {
+    appearance: none;
+    background-image: url("img/arrow_icon.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 12px;
+}
+
+/* 画像エリア */
+.image-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-area img {
+    width: 50%;
+    border-radius: 12px;
+}
+
+/* ===== 下のアイコン行 ===== */
+.media-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.media-actions .left img {
+    width: 28px;
+    margin-right: 23px;
+}
+
+.media-actions .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.share_icon,
+.download_icon {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+}
+
+.share_icon img,
+.download_icon img {
+    width: 24px;
+}
+
+/* ===== footer ===== */
+.form-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 26px;
+    padding: 20px 25px 42px;
+    background: #ffffff;
+}
+
+.draft-btn,
+.submit-btn {
+    flex: 1;
+    background: #c9f0d5;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 0;
+}
+
+.draft-btn img,
+.submit-btn img {
+    width: 24px;
+}
+
+
+.form-footer p {
+    margin: 0;
+    font-size: 14px;
+}

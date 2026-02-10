@@ -256,3 +256,21 @@ main {
     font-size: 16px;
     margin: 0;
 }
+.fab {
+    position: fixed;
+    right: 24px;
+    bottom: 100px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgba(180, 235, 200, 0.9);
+    color: #555;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+    opacity: 0.7;
+}

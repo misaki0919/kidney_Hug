@@ -1,0 +1,136 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #B8ECC7; */
+    
+}
+
+
+.mypage-header {
+    height: 113px;
+    background: #c9f0d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mypage-header h1 {
+    font-size: 22px;
+    
+}
+
+.close-btn {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+
+.close-btn img {
+    width: 20px;
+}
+
+
+.mypage {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 35px;
+}
+
+.section-title {
+    display: inline-block;
+    background: #c9f0d6;
+    padding: 6px 14px;
+    margin-bottom: 20px;
+}
+
+
+.account-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.account-left {
+    width: 140px;
+    background: #e6f8ee;
+    border-radius: 25px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.account-left img {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.account-right {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.pill-btn {
+    width: 230px;
+    height: 44px;
+    background: #e6f8ee;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+.pill-btn img {
+    width: 20px;
+}
+
+.text-link {
+    display: inline-block;
+    margin-bottom: 35px;
+    text-decoration: underline;
+    color: #000;
+    font-size: 14px;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin-bottom: 20px;
+}
+
+.link-list a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin-top: 28px;
+}
+
+.logout-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.logout-btn {
+    background: #c9f0d6;
+    border: none;
+    padding: 14px 50px;
+    font-size: 18px;
+    cursor: pointer;
+} */
+ /* ===== 全体 =====
